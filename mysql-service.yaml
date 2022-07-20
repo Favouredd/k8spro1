@@ -2,6 +2,7 @@
  kind: Service
  metadata:
    name: mysql-service
+   namespace: etechappsvc
  spec:
    selector:
      app: mysql
